@@ -36,8 +36,6 @@ class _HomePageState extends State<HomePage> {
     'assets/images/roadster.jpg',
     'assets/images/royal_field.jpg'
   ];
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,8 +61,6 @@ class _HomePageState extends State<HomePage> {
               SizedBox(
                 height: 20.0,
               ),
-
-
                 CarouselSlider(
                     options: CarouselOptions(
                       height: 292,
